@@ -52,5 +52,5 @@ func main() {
 /**
 整段代码中，没有线程创建，没有线程池也没有加锁，仅仅通过关键字 go 实现 goroutine，和通道实现数据交换。
 
-编译成exe文件：go build go-test/test3/concurrent.go
+编译成exe文件：go build go-test/test3/concurrent-1.go
 */
