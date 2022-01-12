@@ -1,10 +1,14 @@
-// 同一个目录下面不能有个多 package main
 package main
 
-// 导包
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-// 程序入口
 func main() {
-	fmt.Println("Hello world")
+
+	for {
+		fmt.Println("窝嫩叠")
+		time.Sleep(time.Millisecond * 100)
+	}
 }
