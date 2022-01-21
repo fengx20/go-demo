@@ -8,7 +8,7 @@ import (
 func main() {
 
 	for {
-		fmt.Println("窝嫩叠")
+		fmt.Println("你好")
 		time.Sleep(time.Millisecond * 100)
 	}
 }
